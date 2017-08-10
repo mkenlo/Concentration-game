@@ -4,29 +4,52 @@ body{
 	padding-top: 10px;
 	padding-bottom: 20px;
     font-family: 'Nunito', sans-serif;
-    color:#2d3c49;
     font-size: 14px;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+  	background-size: cover;
+  	color:#fff;
+}
+a, a:visited, a:hover{
+	color:#e7e7e7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#gameover{
+	color: #2d3c49;
 }
 
 .container{
-	max-width: 750px;
+	max-width: 950px;
 	margin: 0 auto;
 }
 
-.card{
-	width: 128px
-	height: 138px;
-	margin:10px 0px 0px 0px;
+.content{
+	top: 25%;
+	position: fixed;
+}
 
+.card{
+	width: 100px;
+	margin: 5px 20px 0px 30px;
 }
 
 .front{
 }
 
-.back{	
+.back{
 	display: none;
 }
 
+.bg-brown{
+	background-color: #c69c6d;
+}
+
 footer{
-	margin-top: 20px;
+	bottom: 5px;
+	position: fixed;
+	left: 35%;
 }
